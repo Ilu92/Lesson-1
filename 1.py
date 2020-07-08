@@ -7,5 +7,6 @@ __author__ = Zdorov Ilya
 a = input("Enter your name: ")
 b = int(input("Enter your age: "))
 c = float(input("Enter any number: "))
+d = str(input("Text: ")) 
 
-print(a, b, c)
+print(a, b, c, d)
