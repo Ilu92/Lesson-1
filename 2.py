@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 #__author__ = Zdorov Ilya
 
 # Пользователь вводит время в секундах. Переведите время в часы,
@@ -10,3 +11,6 @@ residue = time_in_sec % 3600
 minutes = residue // 60
 sec = residue % 60
 print(f"Now is {hours}:{minutes}:{sec} ")
+=======
+int("45" , 12)
+>>>>>>> Stashed changes
