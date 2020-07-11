@@ -2,9 +2,9 @@
 # минуты и секунды и выведите в формате чч:мм:сс.
 # Используйте форматирование строк.
 
-time_in_sec = int(input("Enter your local time in sec: "))
-hours = time_in_sec // 3600
-residue = time_in_sec % 3600
-minutes = residue // 60
-sec = residue % 60
-print(f"Now is {hours}:{minutes}:{sec} ")
+time = int(input("Enter your local time in sec: "))
+hours = time // 3600
+minutes = (time // 60) - (hours * 60)
+sec = time % 60
+
+print(f"Now is {hours:02}:{minutes:02}:{sec:02} ")
